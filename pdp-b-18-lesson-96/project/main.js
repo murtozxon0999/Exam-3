@@ -7,9 +7,10 @@ const pomodoro = document.querySelector(".pomodoro-btn");
 const shortBreak = document.querySelector(".shortBreak-btn");
 const longBreak = document.querySelector(".longBreak-btn");
 const btn = document.querySelectorAll(".btn");
-
+let temp = "25";
 let timer = 59;
 let minutVal = 25;
+let times;
 
 pomodoro.addEventListener("click", () => {
   btnStyle();
@@ -32,8 +33,20 @@ shortBreak.addEventListener("click", () => {
   shortBreak.style.background = "#e93c3c";
   shortBreak.style.color = "#fff8ee";
   minutVal = 10;
+  minut.innerHTML = "10";
   console.log(minutVal);
   goo();
+  sekund.innerText = "00";
+});
+
+stop.addEventListener("click", () =>{
+    clearInterval(times);
+})
+start.addEventListener("click", () =>{
+    clearInterval(times);
+})
+pause.addEventListener("click", () => {
+  clearInterval(times);
 });
 
 longBreak.addEventListener("click", () => {
@@ -41,6 +54,7 @@ longBreak.addEventListener("click", () => {
   longBreak.style.background = "#e93c3c";
   longBreak.style.color = "#fff8ee";
   minutVal = 15;
+  minut.innerHTML = "15";
   console.log(minutVal);
 });
 
@@ -52,14 +66,16 @@ function goo() {
 
   pause.addEventListener("click", () => {
     toggleBtn(pause, start);
+        sekund.innerHTML ='';
     clearInterval(timer);
+
   });
 }
 
 function sekundCount() {
-  setInterval(() => {
+  times = setInterval(() => {
     sekund.innerHTML = timer;
-    minut.innerHTML = minutVal-1;
+    minut.innerHTML = minutVal - 1;
     timer--;
     if (timer == 0) {
       timer = 60;
@@ -97,7 +113,7 @@ function btnStyle() {
 //   }
 // function stopTimer() {
 //     clearInterval(interval);
-  
+
 //     mainButton.dataset.action = "start";
 //     mainButton.textContent = "start";
 //     mainButton.classList.remove("active");
