@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color:#E5E5E5;
+.top-section{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 3rem;
+    h1{
+        color: #C44747;
+        font-family: 'Lobster';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 2.5rem;
+        line-height: 2rem;
+    }
+    img{
+        width: 2rem;
+        height: 2rem;
+    }
+}
+.center-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 3rem;
+        gap: 5rem;
+        .pomodoro-btn{
+            font-family: 'Lobster';
+            color:  #F85959;
+            font-size: 1.4rem;
+            width: 13rem;
+            height: 4rem;
+            border-radius: 2rem;
+            border: none;
+            background-color: #fff;
+            letter-spacing:0.1rem;
+            &:hover{
+                letter-spacing: 0.1rem;
+                background-color:  #F85959;
+                color: #fff;
+                cursor: pointer;
+            }
+        }
+        .shortBreak-btn{
+            font-family: 'Lobster';
+            color:  #F85959;
+            font-size: 1.4rem;
+            width: 13rem;
+            height: 4rem;
+            border-radius: 2rem;
+            border: none;
+            background-color: #fff;
+            letter-spacing:0.1rem;
+            &:hover{
+                letter-spacing: 0.1rem;
+                background-color:  #F85959;
+                color: #fff;
+                cursor: pointer;
+            }
+        }
+        .longBreak-btn{
+            font-family: 'Lobster';
+            color:  #F85959;
+            font-size: 1.4rem;
+            width: 13rem;
+            height: 4rem;
+            border-radius: 2rem;
+            border: none;
+            background-color: #fff;
+            letter-spacing:0.1rem;
+            &:hover{
+                letter-spacing: 0.1rem;
+                background-color:  #F85959;
+                color: #fff;
+                cursor: pointer;
+            }
+        }
+}
+.circle-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+    .timer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 0.8rem solid #F85959;
+        width: 18rem;
+        height: 18rem;
+        border-radius: 10rem;
+        .minut{
+            color: #F85959;
+            font-family: 'Lobster';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 40px;
+        }
+        .point{
+            color: #F85959;
+            font-family: 'Lobster';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 40px;
+        }
+        .sekund{
+            color: #F85959;
+            font-family: 'Lobster';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 40px;
+        }
+        
+    }
+    
+
+}
+.footer-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    padding-top: 5rem;
+    .footer-btn-1{
+        font-family: 'Lobster';
+        color: #fff;
+        font-size: 1.4rem;
+        width: 15rem;
+        height: 4rem;
+        border-radius: 2rem;
+        border: none;
+        background-color: #F85959;
+        letter-spacing:0.1rem;
+        &:hover{
+            letter-spacing: 0.1rem;
+            cursor: pointer;
+        }
+    }
+    .footer-btn-2{
+        font-family: 'Lobster';
+        font-size: 1.4rem;
+        width: 15rem;
+        height: 4rem;
+        border-radius: 2rem;
+        border: none;
+        background-color:  #F85959;
+        color: #fff;
+        letter-spacing:0.1rem;
+        &:hover{
+            letter-spacing: 0.1rem;
+
+            cursor: pointer;
+        }
+    }
+    .pause{
+        font-family: 'Lobster';
+        font-size: 1.4rem;
+        width: 15rem;
+        height: 4rem;
+        border-radius: 2rem;
+        border: none;
+        background-color:  #F85959;
+        color: #fff;
+        letter-spacing:0.1rem;
+    }
+
+}
+.hide{
+    display: none;
+
+
+}
+
+    .defiz{
+        .defis{
+            width: 20rem;
+            height: 0.8rem;
+            background-color: black;
+            margin-left: 55rem;
+            margin-top: -18rem;
+            z-index: -1;
+        }
+
+    }
+
+}

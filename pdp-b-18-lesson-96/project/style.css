@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #E5E5E5;
+}
+body .top-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding-top: 3rem;
+}
+body .top-section h1 {
+  color: #C44747;
+  font-family: "Lobster";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 2rem;
+}
+body .top-section img {
+  width: 2rem;
+  height: 2rem;
+}
+body .center-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3rem;
+  gap: 5rem;
+}
+body .center-section .pomodoro-btn {
+  font-family: "Lobster";
+  color: #F85959;
+  font-size: 1.4rem;
+  width: 13rem;
+  height: 4rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: #fff;
+  letter-spacing: 0.1rem;
+}
+body .center-section .pomodoro-btn:hover {
+  letter-spacing: 0.1rem;
+  background-color: #F85959;
+  color: #fff;
+  cursor: pointer;
+}
+body .center-section .shortBreak-btn {
+  font-family: "Lobster";
+  color: #F85959;
+  font-size: 1.4rem;
+  width: 13rem;
+  height: 4rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: #fff;
+  letter-spacing: 0.1rem;
+}
+body .center-section .shortBreak-btn:hover {
+  letter-spacing: 0.1rem;
+  background-color: #F85959;
+  color: #fff;
+  cursor: pointer;
+}
+body .center-section .longBreak-btn {
+  font-family: "Lobster";
+  color: #F85959;
+  font-size: 1.4rem;
+  width: 13rem;
+  height: 4rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: #fff;
+  letter-spacing: 0.1rem;
+}
+body .center-section .longBreak-btn:hover {
+  letter-spacing: 0.1rem;
+  background-color: #F85959;
+  color: #fff;
+  cursor: pointer;
+}
+body .circle-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3rem;
+}
+body .circle-section .timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.8rem solid #F85959;
+  width: 18rem;
+  height: 18rem;
+  border-radius: 10rem;
+}
+body .circle-section .timer .minut {
+  color: #F85959;
+  font-family: "Lobster";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+}
+body .circle-section .timer .point {
+  color: #F85959;
+  font-family: "Lobster";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+}
+body .circle-section .timer .sekund {
+  color: #F85959;
+  font-family: "Lobster";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+}
+body .footer-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  padding-top: 5rem;
+}
+body .footer-section .footer-btn-1 {
+  font-family: "Lobster";
+  color: #fff;
+  font-size: 1.4rem;
+  width: 15rem;
+  height: 4rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: #F85959;
+  letter-spacing: 0.1rem;
+}
+body .footer-section .footer-btn-1:hover {
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+body .footer-section .footer-btn-2 {
+  font-family: "Lobster";
+  font-size: 1.4rem;
+  width: 15rem;
+  height: 4rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: #F85959;
+  color: #fff;
+  letter-spacing: 0.1rem;
+}
+body .footer-section .footer-btn-2:hover {
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+body .footer-section .pause {
+  font-family: "Lobster";
+  font-size: 1.4rem;
+  width: 15rem;
+  height: 4rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: #F85959;
+  color: #fff;
+  letter-spacing: 0.1rem;
+}
+body .hide {
+  display: none;
+}
+body .defiz .defis {
+  width: 20rem;
+  height: 0.8rem;
+  background-color: black;
+  margin-left: 55rem;
+  margin-top: -18rem;
+  z-index: -1;
+}
